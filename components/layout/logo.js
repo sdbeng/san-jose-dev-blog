@@ -1,9 +1,10 @@
 // import React from 'react'
+import classes from './logo.module.css'
 
 function Logo() {
     return (
-        <div>
-            <h2>Logo comp</h2>
+        <div className={classes.logo}>
+            Summer Dev Bootcamp
         </div>
     )
 }
