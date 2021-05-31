@@ -15,12 +15,14 @@ function PostItem(props) {
     
     //note: in order to pass my complex html to Link, I must wrap it around w/ an anchor tag!!
 
+    const linkPath = `/posts/${slug}`
+
     return (
         <li className={classes.post}>
-            <Link href='/'>
+            <Link href={linkPath}>
                 <a>
                     <div className={classes.image}>
-                        <Image src={imagePath} alt={title} width={300} height={200} />
+                        <Image src={imagePath} alt={title} width={300} height={200} layout='responsive'/>
                     </div>
                     <div className={classes.content}>
                         <h3>{title}</h3>
