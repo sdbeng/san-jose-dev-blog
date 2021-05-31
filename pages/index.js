@@ -5,7 +5,7 @@ import Hero from '../components/home-page/hero'
 import styles from '../styles/Home.module.css'
 
 const DUMMY_POSTS = [
-  {slug:'hello-devs', title:'hello devs', image:'coding-event-mesm.jpg', excerpt:'hello devs time to get going', date:'2021-05-29' }
+  {slug:'hello-devs', title:'hello devs', image:'coding-event-mesm.jpg', excerpt:'hello devs time to get coding', date:'2021-05-29' }
 ]
 
 export default function Home() {
