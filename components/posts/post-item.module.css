@@ -1,11 +1,12 @@
 .post {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px rgba(148, 110, 110, 0.2);
     background-color: var(--color-grey-800);
     text-align: center;
   }
   
   .post a {
     color: var(--color-grey-100);
+    /* list-style-type: none; */
   }
   
   .image {
@@ -20,6 +21,7 @@
   
   .content {
     padding: var(--size-4);
+    
   }
   
   .content h3 {
